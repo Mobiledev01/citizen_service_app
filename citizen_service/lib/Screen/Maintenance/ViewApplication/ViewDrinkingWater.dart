@@ -1,0 +1,235 @@
+import 'dart:convert';
+
+import 'package:citizen_service/Model/DrinkingWater/DrinkingWaterApplication.dart';
+import 'package:citizen_service/Model/DrinkingWater/DrinkingWaterModel.dart';
+import 'package:citizen_service/Model/DropDownModel.dart';
+import 'package:citizen_service/Model/MstAddApplicationModel.dart';
+import 'package:citizen_service/SqliteDatabase/Database.dart';
+import 'package:citizen_service/Utility/Color.dart';
+import 'package:citizen_service/Utility/EmptyWidget.dart';
+import 'package:citizen_service/Utility/String.dart';
+import 'package:citizen_service/Utility/Style.dart';
+import 'package:citizen_service/Utility/Utility.dart';
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+import 'package:citizen_service/GlobalsVariable/GlobalsVariable.dart'
+    as globals;
+
+class ViewDrinkingWater extends StatefulWidget {
+  final String categoryId, serviceId, title, applicationId;
+
+  ViewDrinkingWater(
+      {Key? key,
+      required this.title,
+      required this.categoryId,
+      required this.serviceId,
+      required this.applicationId})
+      : super(key: key);
+
+  @override
+  _ViewDrinkingWaterState createState() => _ViewDrinkingWaterState();
+}
+
+class _ViewDrinkingWaterState extends State<ViewDrinkingWater> {
+  List<DropDownModal> problemList = [];
+  String problemSelect = '';
+  bool draftApplication = true;
+  final applicationName = TextEditingController();
+  final mobileNumber = TextEditingController();
+  final landmarkLocation = TextEditingController();
+  final problem = TextEditingController();
+
+  String selectedDistId = '';
+  String selectedTalukaId = '';
+  String selectedPanchayatId = '';
+  String selectedVillageId = '';
+  String applicationId = '';
+  String problem_details = '';
+  bool isFileExits = true;
+
+  @override
+  void initState() {
+    super.initState();
+
+    if (widget.applicationId.isNotEmpty && widget.applicationId != '0') {
+      setState(() {
+        applicationId = widget.applicationId;
+      });
+      fetchApplicationData(applicationId);
+    }
+    problemList.add(new DropDownModal(
+        title: 'problemList 1', titleKn: 'problemList 1', id: '1'));
+    problemList.add(new DropDownModal(
+        title: 'problemList 2', titleKn: 'problemList 2', id: '2'));
+    problemList.add(new DropDownModal(
+        title: 'problemList 3', titleKn: 'problemList 3', id: '3'));
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+        appBar: AppBar(
+          backgroundColor:
+              globals.isTrainingMode ? testModePrimaryColor : primaryColor,
+          title: Text(drinking_water),
+        ),
+        body: Container(
+          child: Column(
+            children: [
+              Expanded(
+                  child: Theme(
+                data: ThemeData(
+                    colorScheme: ColorScheme.light(
+                  primary: primaryColor,
+                )),
+                child: Padding(
+                  padding: const EdgeInsets.fromLTRB(15, 8, 15, 0),
+                  child: Container(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      mainAxisAlignment: MainAxisAlignment.start,
+                      children: <Widget>[
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Card(
+                            color: primaryColor,
+                            shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.only(
+                                    topRight: Radius.circular(30),
+                                    bottomLeft: Radius.circular(30))),                            elevation: 3.0,
+                            child: Padding(
+                              padding: EdgeInsets.all(7.0),
+                              child: Align(
+                                alignment: Alignment.center,
+                                child: Text(
+                                  getTranslated(context, 'DrinkingWater',
+                                          'applicant_details')
+                                      .toUpperCase(),
+                                  style: whiteBoldText16,
+                                ),
+                              ),
+                            ),
+                          ),
+                        ),
+                        EmptyWidget(),
+                        Text(
+                          getTranslated(
+                              context, 'DrinkingWater', 'applicant_name'),
+                          style: graypreviewText13,
+                        ),
+                        Text(
+                          applicationName.text,
+                          style: grayBoldText16,
+                        ),
+                        Divider(thickness: 1),
+                        Text(
+                          getTranslated(
+                              context, 'DrinkingWater', 'mobile_number'),
+                          style: graypreviewText13,
+                        ),
+                        Text(
+                          mobileNumber.text,
+                          style: grayBoldText16,
+                        ),
+                        Divider(thickness: 1),
+                        Text(
+                          getTranslated(
+                              context, 'Building_License', 'district'),
+                          style: graypreviewText13,
+                        ),
+                        Text(
+                          selectedDistId,
+                          style: grayBoldText16,
+                        ),
+                        Divider(thickness: 1),
+                        Text(
+                          getTranslated(context, 'Building_License', 'taluka'),
+                          style: graypreviewText13,
+                        ),
+                        Text(
+                          selectedTalukaId,
+                          style: grayBoldText16,
+                        ),
+                        Divider(thickness: 1),
+                        Text(
+                          getTranslated(
+                              context, 'Building_License', 'panchayat'),
+                          style: graypreviewText13,
+                        ),
+                        Text(
+                          selectedPanchayatId,
+                          style: grayBoldText16,
+                        ),
+                        Divider(thickness: 1),
+                        Text(
+                          getTranslated(context, 'Building_License', 'village'),
+                          style: graypreviewText13,
+                        ),
+                        Text(
+                          selectedVillageId,
+                          style: grayBoldText16,
+                        ),
+                        Divider(thickness: 1),
+                        Text(
+                          getTranslated(
+                              context, 'DrinkingWater', 'enter_problem'),
+                          style: graypreviewText13,
+                        ),
+                        Text(
+                          problem.text,
+                          style: grayBoldText16,
+                        ),
+                        Divider(thickness: 1),
+                        Text(
+                          getTranslated(
+                              context, 'DrinkingWater', 'problem_des'),
+                          style: graypreviewText13,
+                        ),
+                        Text(
+                          problem_details,
+                          style: grayBoldText16,
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+              )),
+            ],
+          ),
+        ));
+  }
+
+  void fetchApplicationData(String applicationId) async {
+    MstAddApplicationModel? model =
+        await DatabaseOperation.instance.getApplicationUsingID(applicationId);
+    if (model != null && model.aPPLICATIONDATA.isNotEmpty) {
+      var jsonData = jsonDecode(model.aPPLICATIONDATA);
+      DrinkingWaterModel drinkingWaterModel = new DrinkingWaterModel(
+          jsonData.containsKey('1') && jsonData["1"] != null
+              ? DrinkingWaterApplication.fromJson(jsonData["1"])
+              : null);
+      if (drinkingWaterModel.drinkingWaterApplication != null) {
+        applicationName.text =
+            drinkingWaterModel.drinkingWaterApplication!.applicant_name;
+        mobileNumber.text = drinkingWaterModel.drinkingWaterApplication!.mob_no;
+        selectedDistId = await DatabaseOperation.instance.getDistrictName(
+            drinkingWaterModel.drinkingWaterApplication!.district_id);
+        selectedTalukaId = await DatabaseOperation.instance.getTalukaName(
+            drinkingWaterModel.drinkingWaterApplication!.taluka_id);
+        selectedPanchayatId = await DatabaseOperation.instance.getPanchayatName(
+            drinkingWaterModel.drinkingWaterApplication!.panchayat_id);
+        selectedVillageId = await DatabaseOperation.instance.getVillageName(
+            drinkingWaterModel.drinkingWaterApplication!.village_id);
+        landmarkLocation.text =
+            drinkingWaterModel.drinkingWaterApplication!.landmark_location;
+        problemSelect =
+            drinkingWaterModel.drinkingWaterApplication!.problem_description_id;
+        problem.text = await DatabaseOperation.instance
+            .getDropdownName("getMstProblemDetails", problemSelect);
+        problem_details =
+            drinkingWaterModel.drinkingWaterApplication!.problem_type;
+        setState(() {});
+      }
+    }
+  }
+}

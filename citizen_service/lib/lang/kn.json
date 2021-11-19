@@ -1,0 +1,320 @@
+{
+  "DrawerMenu": {
+    "Home" : "ಡ್ಯಾಶ್\u200Cಬೋರ್ಡ್",
+    "Citizen_Service" : "ನಾಗರಿಕ ಸೇವೆಗಳು",
+    "Grievance" : "ಕುಂದುಕೊರತೆ",
+    "Tax_Payment" : "ತೆರಿಗೆ ಪಾವತಿ",
+    "Feedback_Suggestion" : "ಪ್ರತಿಕ್ರಿಯೆ ಮತ್ತು ಸಲಹೆ",
+    "Language" : "ಭಾಷೆ",
+    "Sign_Out" : "ಸೈನ್ ಔಟ್"
+  },
+  "Building_License" : {
+
+    "applicant_details" : "ಅರ್ಜಿದಾರರ_ವಿವರಗಳು",
+    "property_village_details" : "ಆಸ್ತಿ/ಗ್ರಾಮದ ವಿವರಗಳು",
+    "license_details" : "ಕಟ್ಟಡದ ವಿವರಗಳು",
+    "upload_document_details" : "ಡಾಕ್ಯುಮೆಂಟ್\u200Cಗಳನ್ನು ಅಪ್\u200Cಲೋಡ್ ಮಾಡಿ",
+
+    "applicant_name": "ಅರ್ಜಿದಾರರ ಹೆಸರು",
+    "parent_spouse_name" : "ಪೋಷಕರು/ಸಂಗಾತಿಯ ಹೆಸರು",
+    "mobile_number" : "ಮೊಬೈಲ್ ನಂಬರ",
+    "family_id" : "ಕುಟುಂಬ ID",
+    "address_line_1" : "ವಿಳಾಸ ಸಾಲು 1",
+    "address_line_2" : "ವಿಳಾಸ ಸಾಲು 2",
+    "pincode" : "ಪಿನ್ ಕೋಡ್",
+
+    "district" : "ಜಿಲ್ಲೆ",
+    "taluka" : "ತಾಲೂಕು",
+    "panchayat" : "ಪಂಚಾಯತ್",
+    "village" : "ಗ್ರಾಮ",
+    "search_property_id_drop" : "ಆಸ್ತಿ ಐಡಿಯನ್ನು ಹುಡುಕಿ",
+    "property_id" : "ಆಸ್ತಿ ಐಡಿ",
+
+    "building_construction" : "ಕಟ್ಟಡ ನಿರ್ಮಾಣದ ವಿಧ",
+    "property_type" : "ಆಸ್ತಿ ಪ್ರಕಾರ",
+    "purpose" : "ಉದ್ದೇಶ",
+    "estimation_of_building" : "ಕಟ್ಟಡದ ಅಂದಾಜು (ಲಕ್ಷಗಳಲ್ಲಿ)",
+    "proposed_plinth" : "ಪ್ರಸ್ತಾವಿತ ಪ್ಲಿಂತ್ ಪ್ರದೇಶ (Sq.mt ನಲ್ಲಿ)",
+    "area_measurements" : "ಪ್ರದೇಶ ಅಳತೆಗಳು",
+    "total_area" :  "ಚದರ ಎಂಟಿನಲ್ಲಿ ಒಟ್ಟು ವಿಸ್ತೀರ್ಣ",
+    "built_up_area" :  "ನಿರ್ಮಿತ ಪ್ರದೇಶ (ಚದರ ಮೀ)",
+    "east_west" :  "ಪೂರ್ವ-ಪಶ್ಚಿಮ (ಮೀಟರ್)",
+    "north_south" :  "ಉತ್ತರ-ದಕ್ಷಿಣ (ಮೀಟರ್)",
+    "check_bandi" :  "ಚೆಕ್\u200Cಬಂಡಿ",
+    "east" :  "ಪೂರ್ವ",
+    "south" :  "ದಕ್ಷಿಣ",
+    "west" :  "ಪಶ್ಚಿಮ",
+    "north" :  "ಉತ್ತರ",
+    "direction_main_door" : "ಮುಖ್ಯ ಬಾಗಿಲನ್ನು ಯಾವ ದಿಕ್ಕಿನಲ್ಲಿ ನಿರ್ಮಿಸಬೇಕು",
+    "no_of_room" : "ಕೊಠಡಿಗಳ ಸಂಖ್ಯೆ",
+    "no_of_floor" : "ಮಹಡಿಗಳ ಸಂಖ್ಯೆ",
+    "no_of_rooms" : "ಕಟ್ಟಡ ಯೋಜನೆಯಲ್ಲಿ ಪ್ರಸ್ತಾಪಿಸಿದಂತೆ ನಿರ್ಮಿಸಬೇಕಾದ ಕೊಠಡಿಗಳ ಸಂಖ್ಯೆ",
+    "no_of_floors" : "ಕಟ್ಟಡದ ಯೋಜನೆಯಲ್ಲಿ ಪ್ರಸ್ತಾಪಿಸಿದಂತೆ ಮಹಡಿಗಳ ನಿರ್ಮಾಣ",
+    "toilet_facility" :  "Toilet Facility Available",
+    "solar" :  "ಸೌರ ಸೌಕರ್ಯ ಲಭ್ಯವಿದೆ",
+    "rain" :  "ಮಳೆ ನೀರು ಕೊಯ್ಲು ಸೌಲಭ್ಯ ಲಭ್ಯವಿದೆ",
+    "professional" : "ಕಟ್ಟಡ ಯೋಜನೆಯನ್ನು ಸಿದ್ಧಪಡಿಸಿದ ವೃತ್ತಿಪರರ ಹೆಸರು (ಎಂಜಿನಿಯರ್)",
+    "supervising_professional" : "ವೃತ್ತಿಪರ ಮೇಲ್ವಿಚಾರಣೆಯ ಕಟ್ಟಡದ ಹೆಸರು (ಎಂಜಿನಿಯರ್)",
+
+    "doc_ty" :  "ಡಾಕ್ಯುಮೆಂಟ್ ಪ್ರಕಾರ",
+    "doc_dis" :  "ಡಾಕ್ಯುಮೆಂಟ್ ವಿವರಣೆ"
+
+  },
+  "DisconnectingWaterConnection" : {
+
+    "applicant_details": "ಅರ್ಜಿದಾರರ_ವಿವರಗಳು",
+    "property_village_details": "ಆಸ್ತಿ/ಗ್ರಾಮದ ವಿವರಗಳು",
+    "upload_document_details": "ಡಾಕ್ಯುಮೆಂಟ್\u200Cಗಳನ್ನು ಅಪ್\u200Cಲೋಡ್ ಮಾಡಿ",
+
+    "applicant_name": "ಅರ್ಜಿದಾರರ ಹೆಸರು",
+    "parent_spouse_name": "ಪೋಷಕರು/ಸಂಗಾತಿಯ ಹೆಸರು",
+    "mobile_number": "ಮೊಬೈಲ್ ಸಂಖ್ಯೆ",
+    "ration_id": "ಕುಟುಂಬ ಐಡಿ [ಪಡಿತರ ಚೀಟಿ ಸಂಖ್ಯೆ]",
+    "address_line_1": "ವಿಳಾಸ ಸಾಲು 1",
+    "address_line_2": "ವಿಳಾಸ ಸಾಲು 2",
+    "district": "ಜಿಲ್ಲೆ",
+    "pincode": "ಪಿನ್ ಕೋಡ್",
+
+    "property_id": "ಆಸ್ತಿ",
+    "reason_water_discon": "ನೀರಿನ ಸಂಪರ್ಕ ಕಡಿತಕ್ಕೆ ಕಾರಣ",
+
+    "doc_ty" :  "ಡಾಕ್ಯುಮೆಂಟ್ ಪ್ರಕಾರ",
+    "doc_dis" :  "ಡಾಕ್ಯುಮೆಂಟ್ ವಿವರಣೆ"
+  },
+  "OccupancyCertificate" : {
+
+    "applicant_details": "ಅರ್ಜಿದಾರರ_ವಿವರಗಳು",
+    "property_village_details": "ಆಸ್ತಿ/ಗ್ರಾಮದ ವಿವರಗಳು",
+    "license_details" : "ಕಟ್ಟಡದ ವಿವರಗಳು",
+    "upload_document_details": "ಡಾಕ್ಯುಮೆಂಟ್\u200Cಗಳನ್ನು ಅಪ್\u200Cಲೋಡ್ ಮಾಡಿ",
+
+    "applicant_name": "ಅರ್ಜಿದಾರರ ಹೆಸರು",
+    "parent_spouse_name": "ಪೋಷಕರು/ಸಂಗಾತಿಯ ಹೆಸರು",
+    "mobile_number": "ಮೊಬೈಲ್ ಸಂಖ್ಯೆ",
+    "family_id": "ಕುಟುಂಬ ID",
+    "address_line_1": "ವಿಳಾಸ ಸಾಲು 1",
+    "address_line_2": "ವಿಳಾಸ ಸಾಲು 2",
+    "pincode": "ಪಿನ್ ಕೋಡ್",
+
+    "property": "ಆಸ್ತಿ",
+
+    "building_license_no": "ಕಟ್ಟಡ ಪರವಾನಗಿ ಸಂಖ್ಯೆ",
+
+    "doc_ty" :  "ಡಾಕ್ಯುಮೆಂಟ್ ಪ್ರಕಾರ",
+    "doc_dis" :  "ಡಾಕ್ಯುಮೆಂಟ್ ವಿವರಣೆ"
+  },
+  "WaterConnection" : {
+
+    "applicant_details": "ಅರ್ಜಿದಾರರ_ವಿವರಗಳು",
+    "property_village_details": "ಆಸ್ತಿ/ಗ್ರಾಮದ ವಿವರಗಳು",
+    "water_conn_detail" : "Water Connection Deatils",
+    "upload_document_details": "ಡಾಕ್ಯುಮೆಂಟ್\u200Cಗಳನ್ನು ಅಪ್\u200Cಲೋಡ್ ಮಾಡಿ",
+
+    "applicant_name": "ಅರ್ಜಿದಾರರ ಹೆಸರು",
+    "parent_spouse_name": "ಪೋಷಕರು/ಸಂಗಾತಿಯ ಹೆಸರು",
+    "mobile_number": "ಮೊಬೈಲ್ ಸಂಖ್ಯೆ",
+    "family_id": "ಕುಟುಂಬ ID",
+    "address_line_1": "ವಿಳಾಸ ಸಾಲು 1",
+    "address_line_2": "ವಿಳಾಸ ಸಾಲು 2",
+    "pincode": "ಪಿನ್ ಕೋಡ್",
+
+    "property_id": "ಆಸ್ತಿ",
+
+    "purpose_of_water_con": "ನೀರಿನ ಸಂಪರ್ಕದ ಉದ್ದೇಶ",
+    "no_of_family_mem": "ಕುಟುಂಬ ಸದಸ್ಯರ ಸಂಖ್ಯೆ",
+    "water_teriff": "Water Teriff",
+    "check_bandi": "ಚೆಕ್\u200Cಬಂಡಿ",
+    "east": "ಪೂರ್ವ",
+    "south": "ದಕ್ಷಿಣ",
+    "west": "ಪಶ್ಚಿಮ",
+    "north": "ಉತ್ತರ",
+
+    "doc_ty" :  "ಡಾಕ್ಯುಮೆಂಟ್ ಪ್ರಕಾರ",
+    "doc_dis" :  "ಡಾಕ್ಯುಮೆಂಟ್ ವಿವರಣೆ"
+  },
+  "DrinkingWater" : {
+
+    "applicant_details": "ಅರ್ಜಿದಾರರ_ವಿವರಗಳು",
+
+    "applicant_name": "ಅರ್ಜಿದಾರರ ಹೆಸರು",
+    "mobile_number": "ಮೊಬೈಲ್ ಸಂಖ್ಯೆ",
+    "add_of_location": "Address of the location where maintenance is required",
+    "land_mark": "್ಥಳದ ಹೆಗ್ಗುರುತು",
+    "problem_des": "ಸಮಸ್ಯೆಯ ವಿವರಣೆ",
+    "enter_problem": "ನಿಮ್ಮ ಸಮಸ್ಯೆಯನ್ನು ನಮೂದಿಸಿ"
+
+  },
+  "Streetlight" : {
+
+    "applicant_details": "ಅರ್ಜಿದಾರರ_ವಿವರಗಳು",
+
+    "applicant_name": "ಅರ್ಜಿದಾರರ ಹೆಸರು",
+    "mobile_number": "ಮೊಬೈಲ್ ಸಂಖ್ಯೆ",
+    "add_of_location": "Address of the location where maintenance is required",
+    "land_mark": "್ಥಳದ ಹೆಗ್ಗುರುತು",
+    "problem_des": "ಸಮಸ್ಯೆಯ ವಿವರಣೆ"
+
+  },
+  "VillageSanitation" : {
+
+    "applicant_details": "ಅರ್ಜಿದಾರರ_ವಿವರಗಳು",
+
+    "applicant_name": "ಅರ್ಜಿದಾರರ ಹೆಸರು",
+    "mobile_number": "ಮೊಬೈಲ್ ಸಂಖ್ಯೆ",
+    "add_of_location": "Address of the location where maintenance is required",
+    "land_mark": "್ಥಳದ ಹೆಗ್ಗುರುತು",
+    "problem_des": "ಸಮಸ್ಯೆಯ ವಿವರಣೆ"
+
+  },
+  "Entertainmentlicense" : {
+
+    "applicant_details": "ಅರ್ಜಿದಾರರ_ವಿವರಗಳು",
+    "property_village_details": "ಆಸ್ತಿ/ಗ್ರಾಮದ ವಿವರಗಳು",
+    "entertainment_programme" : "Entertainment Programme",
+    "upload_document_details": "ಡಾಕ್ಯುಮೆಂಟ್\u200Cಗಳನ್ನು ಅಪ್\u200Cಲೋಡ್ ಮಾಡಿ",
+
+    "applicant_name": "ಅರ್ಜಿದಾರರ ಹೆಸರು",
+    "parent_nm": "ಪೋಷಕರು/ಸಂಗಾತಿಯ ಹೆಸರು",
+    "mobile_number": "ಮೊಬೈಲ್ ಸಂಖ್ಯೆ",
+    "family_id": "ಕುಟುಂಬ ID",
+    "address_line_1": "ವಿಳಾಸ ಸಾಲು 1",
+    "address_line_2": "ವಿಳಾಸ ಸಾಲು 2",
+    "pincode": "ಪಿನ್ ಕೋಡ್",
+
+    "property": "ಆಸ್ತಿ",
+
+    "entertainment_place": "ಮನರಂಜನಾ ಕಾರ್ಯಕ್ರಮವನ್ನು ನಡೆಸಬೇಕಾದ ಸ್ಥಳ",
+    "entertainment_type": "ಮನರಂಜನಾ ಕಾರ್ಯಕ್ರಮದ ಪ್ರಕಾರ",
+
+    "doc_ty" :  "ಡಾಕ್ಯುಮೆಂಟ್ ಪ್ರಕಾರ",
+    "doc_dis" :  "ಡಾಕ್ಯುಮೆಂಟ್ ವಿವರಣೆ"
+  },
+  "IssuanceOfEscoms" : {
+
+    "applicant_details": "ಅರ್ಜಿದಾರರ_ವಿವರಗಳು",
+    "property_village_details": "ಆಸ್ತಿ/ಗ್ರಾಮದ ವಿವರಗಳು",
+    "upload_document_details": "ಡಾಕ್ಯುಮೆಂಟ್\u200Cಗಳನ್ನು ಅಪ್\u200Cಲೋಡ್ ಮಾಡಿ",
+
+    "applicant_name": "ಅರ್ಜಿದಾರರ ಹೆಸರು",
+    "parent_spouse_name": "ಪೋಷಕರು/ಸಂಗಾತಿಯ ಹೆಸರು",
+    "mobile_number": "ಮೊಬೈಲ್ ಸಂಖ್ಯೆ",
+    "family_id": "ಕುಟುಂಬ ID",
+    "address_line_1": "ವಿಳಾಸ ಸಾಲು 1",
+    "address_line_2": "ವಿಳಾಸ ಸಾಲು 2",
+    "pincode": "ಪಿನ್ ಕೋಡ್",
+
+    "property": "ಆಸ್ತಿ",
+
+    "doc_ty" :  "ಡಾಕ್ಯುಮೆಂಟ್ ಪ್ರಕಾರ",
+    "doc_dis" :  "ಡಾಕ್ಯುಮೆಂಟ್ ವಿವರಣೆ"
+  },
+  "IssuanceOfRecords" : {
+
+    "applicant_details": "ಅರ್ಜಿದಾರರ_ವಿವರಗಳು",
+
+    "applicant_name": "ಅರ್ಜಿದಾರರ ಹೆಸರು",
+    "email_id": "Email Id",
+    "mobile_number": "ಮೊಬೈಲ್ ಸಂಖ್ಯೆ",
+    "information": "Information required",
+
+    "doc_ty" :  "ಡಾಕ್ಯುಮೆಂಟ್ ಪ್ರಕಾರ",
+    "doc_dis" :  "ಡಾಕ್ಯುಮೆಂಟ್ ವಿವರಣೆ"
+  },
+  "RoadCuttingPermission" : {
+
+    "applicant_details": "ಅರ್ಜಿದಾರರ_ವಿವರಗಳು",
+    "property_village_details": "ಆಸ್ತಿ/ಗ್ರಾಮದ ವಿವರಗಳು",
+    "work_details" : "Work Details",
+    "upload_document_details": "ಡಾಕ್ಯುಮೆಂಟ್\u200Cಗಳನ್ನು ಅಪ್\u200Cಲೋಡ್ ಮಾಡಿ",
+
+    "applicant_name": "ಅರ್ಜಿದಾರರ ಹೆಸರು",
+    "address": "ವಿಳಾಸ",
+    "mobile_number": "ಮೊಬೈಲ್ ಸಂಖ್ಯೆ",
+    "email_id": "Email Id",
+
+    "require": "ಗೆ ಅಗತ್ಯವಿದೆ",
+
+    "connection_type": "ಸಂಪರ್ಕ ಪ್ರಕಾರ",
+    "purpose_road_cutting": "ರಸ್ತೆ ಕತ್ತರಿಸುವ ಉದ್ದೇಶ",
+    "significant": "ಮಹತ್ವದ ಹೆಗ್ಗುರುತು",
+    "road_length": "ರಸ್ತೆ ಕತ್ತರಿಸುವಿಕೆಯ ಅಂದಾಜು ಉದ್ದ (KM)",
+    "road_location": "ರಸ್ತೆಯ ಸ್ಥಳ, ಅದು ಹಳ್ಳಿಯ ಗಡಿಯೊಳಗಾಗಲಿ ಅಥವಾ ಹಳ್ಳಿಯ ಪಕ್ಕದಲ್ಲಾಗಲಿ",
+    "work_days": "ಕೆಲಸವನ್ನು ಕಾರ್ಯಗತಗೊಳಿಸಲು ಅಗತ್ಯವಿರುವ ದಿನಗಳು",
+
+    "doc_ty" :  "ಡಾಕ್ಯುಮೆಂಟ್ ಪ್ರಕಾರ",
+    "doc_dis" :  "ಡಾಕ್ಯುಮೆಂಟ್ ವಿವರಣೆ"
+  },
+  "AdvertisementLicense" : {
+
+    "applicant_details": "ಅರ್ಜಿದಾರರ_ವಿವರಗಳು",
+    "property_village_details": "ಆಸ್ತಿ/ಗ್ರಾಮದ ವಿವರಗಳು",
+    "advertise_Details" : "ಜಾಹೀರಾತು ಪರವಾನಗಿಯ ವಿವರಗಳು",
+    "upload_document_details": "ಡಾಕ್ಯುಮೆಂಟ್\u200Cಗಳನ್ನು ಅಪ್\u200Cಲೋಡ್ ಮಾಡಿ",
+
+    "applicant_org_name": "ಅರ್ಜಿದಾರರ ಹೆಸರು",
+    "parent_nm": "ಪೋಷಕರು/ಸಂಗಾತಿಯ ಹೆಸರು",
+    "family_id": "ಕುಟುಂಬ ID",
+    "address_line_1": "ವಿಳಾಸ ಸಾಲು 1",
+    "address_line_2": "ವಿಳಾಸ ಸಾಲು 2",
+    "mobile_number": "ಮೊಬೈಲ್ ಸಂಖ್ಯೆ",
+    "pincode": "ಪಿನ್ ಕೋಡ್",
+
+    "property": "ಆಸ್ತಿ",
+
+    "advertise_type": "ಜಾಹೀರಾತು/ಜಾಹೀರಾತು ಮಂಡಳಿಯ ಪ್ರಕಾರ",
+    "advertise_size": "ಜಾಹೀರಾತು/ಜಾಹೀರಾತು ಮಂಡಳಿಯ ಗಾತ್ರ",
+
+    "doc_ty" :  "ಡಾಕ್ಯುಮೆಂಟ್ ಪ್ರಕಾರ",
+    "doc_dis" :  "ಡಾಕ್ಯುಮೆಂಟ್ ವಿವರಣೆ"
+  },
+  "BusinessLicense" : {
+
+    "applicant_details": "ಅರ್ಜಿದಾರರ_ವಿವರಗಳು",
+    "property_village_details": "ಆಸ್ತಿ/ಗ್ರಾಮದ ವಿವರಗಳು",
+    "license_details" : "ಕಟ್ಟಡದ ವಿವರಗಳು",
+    "upload_document_details": "ಡಾಕ್ಯುಮೆಂಟ್\u200Cಗಳನ್ನು ಅಪ್\u200Cಲೋಡ್ ಮಾಡಿ",
+
+    "applicant_org_name": "ಅರ್ಜಿದಾರರ ಹೆಸರು",
+    "family_name": "ಪೋಷಕರು/ಸಂಗಾತಿಯ ಹೆಸರು",
+    "family_id": "ಕುಟುಂಬ ID",
+    "address_line_1": "ವಿಳಾಸ ಸಾಲು 1",
+    "address_line_2": "ವಿಳಾಸ ಸಾಲು 2",
+    "mobile_number": "ಮೊಬೈಲ್ ಸಂಖ್ಯೆ",
+    "pincode": "ಪಿನ್ ಕೋಡ್",
+    "occupancy_detail": "ಆಕ್ಯುಪೆನ್ಸಿ ವಿವರ",
+
+    "type": "ಮಾದರಿ",
+    "sub_service": "ಉಪ",
+    "trade_name": "ವ್ಯಾಪಾರ ಹೆಸರು",
+    "land_area": "ಚದರ ಮೀಟರ್\u200Cನಲ್ಲಿ ಭೂ ಪ್ರದೇಶ",
+    "building_area": "ಚದರ ಮೀಟರ್\u200Cನಲ್ಲಿ ಕಟ್ಟಡದ ಪ್ರದೇಶ",
+
+    "doc_ty" :  "ಡಾಕ್ಯುಮೆಂಟ್ ಪ್ರಕಾರ",
+    "doc_dis" :  "ಡಾಕ್ಯುಮೆಂಟ್ ವಿವರಣೆ"
+  },
+  "FactoryClearance" : {
+
+    "applicant_details": "ಅರ್ಜಿದಾರರ_ವಿವರಗಳು",
+    "property_village_details": "ಆಸ್ತಿ/ಗ್ರಾಮದ ವಿವರಗಳು",
+    "building_details" : "ಕಟ್ಟಡದ ವಿವರಗಳು",
+    "upload_document_details": "ಡಾಕ್ಯುಮೆಂಟ್\u200Cಗಳನ್ನು ಅಪ್\u200Cಲೋಡ್ ಮಾಡಿ",
+
+    "applicant_org_name": "ಅರ್ಜಿದಾರರ ಹೆಸರು",
+    "parent_nm": "ಪೋಷಕರು/ಸಂಗಾತಿಯ ಹೆಸರು",
+    "ration_id": "ಕುಟುಂಬ ಐಡಿ [ಪಡಿತರ ಚೀಟಿ ಸಂಖ್ಯೆ]",
+    "address_line_1": "ವಿಳಾಸ ಸಾಲು 1",
+    "address_line_2": "ವಿಳಾಸ ಸಾಲು 2",
+    "mobile_number": "ಮೊಬೈಲ್ ಸಂಖ್ಯೆ",
+    "pincode": "ಪಿನ್ ಕೋಡ್",
+
+    "property": "ಆಸ್ತಿ",
+
+    "building_license_no": "ಕಟ್ಟಡ ಪರವಾನಗಿ ಸಂಖ್ಯೆ",
+    "factory_pur": "ಾರ್ಖಾನೆಯ ಉದ್ದೇಶ",
+    "factory_type": "ಫ್ಯಾಕ್ಟರಿ ಪ್ರಕಾರ",
+    "investment": "ಬಂಡವಾಳ ಹೂಡಿಕೆ (ಲಕ್ಷಗಳಲ್ಲಿ ರೂ.)",
+
+    "doc_ty" :  "ಡಾಕ್ಯುಮೆಂಟ್ ಪ್ರಕಾರ",
+    "doc_dis" :  "ಡಾಕ್ಯುಮೆಂಟ್ ವಿವರಣೆ"
+  }
+}

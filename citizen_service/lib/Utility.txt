@@ -1,0 +1,43 @@
+
+****** ADD EMPTY SPACE WIDGET
+EmptyWidget();
+
+****** ADD DROP DOWN WIDGET
+DropDownWidget(
+    lable: 'Select Service', // label for dropdown
+    list: serviceList,  // list for fill dropdown
+    selValue: serviceSelect, // selected value
+    selectValue: (value) {  // function return value after dropdown selection changed
+    print(value.id + ',' + value.title);
+
+}),
+
+****** ADD DROP DOWN FOR GetVillageWidget WIDGET
+GetVillageWidget(
+                selectedDistId: selectedDistId,
+                selectedTalukaId: selectedTalukaId,
+                selectedPanchayatId: selectedPanchayatId,
+                selectedVillageId: selectedVillageId,
+      selectValue: (district, taluka, panchayat, village) {
+        print('---------------------');
+    print(district.id + ',' + district.title);
+    print(taluka.id + ',' + taluka.title);
+    print(panchayat.id + ',' + panchayat.title);
+    print(village.id + ',' + village.title);
+}),
+
+
+****** ADD UPLOAD DOCUMENT WIDGET
+UploadDocumentWidget(
+        flag: '', // flag for type of document image or pdf (I,P,A)
+        lable: fineName + ' ( .jpg .png .jpeg )', // file name
+        selectValue: (value, flag) {
+        // if flag return C it means XFile coming after capture image other wise it return  PlatformFile
+        if (flag == 'C') {
+          XFile file = value;
+          print(file.path + ',' + file.name);
+        } else {
+          PlatformFile file = value;
+          print(file.path! + ',' + file.name);
+        }
+}),
